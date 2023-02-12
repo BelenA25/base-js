@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build" : "parcel build index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Belen Camargo",
   "license": "ISC",
   "dependencies": {
     "error-ex": "github:Qix-/node-error-ex"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
